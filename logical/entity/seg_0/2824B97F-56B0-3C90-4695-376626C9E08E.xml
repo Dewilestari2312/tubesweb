@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2824B97F-56B0-3C90-4695-376626C9E08E" name="user">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:14:12 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8D2B2A35-55B6-676D-4947-7854654B54FC">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:14:12 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9489D637-72B3-0EC7-93F5-E822703638CD">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:15:20 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="0C6F5891-AA34-89AB-25C6-6BDDA5E4DCE8">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:15:42 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis kelamin" id="E8815F7C-17D1-83CD-54E8-5FE112E07C8E">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:16:01 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no telepon" id="63FE36D9-FBD0-BAF7-B234-6B903C1DAB54">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:16:50 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="8F05EAE6-4363-1F65-7C87-7E848ADE485F">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:17:27 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="repeat password" id="1A252B65-75FD-B331-500C-6B6B35169C5F">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:18:20 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4036E56E-17E9-5EC7-B6DE-0AEC8C8D2D76" name="user PK">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:14:12 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D2B2A35-55B6-676D-4947-7854654B54FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

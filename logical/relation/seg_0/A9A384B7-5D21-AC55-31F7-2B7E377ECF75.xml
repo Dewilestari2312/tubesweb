@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="A9A384B7-5D21-AC55-31F7-2B7E377ECF75">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 08:23:11 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<sourcePk>D887276D-2DE3-FFEE-4874-56820808ECBC</sourcePk>
+<targetPk>73D1B32A-62D4-8BDC-CFDA-7524D8AC470B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>mengelola</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F9E3B5F-1630-F83B-1AC8-6B0FA06B4B31</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D70CDCC6-4EA5-549E-0536-882DB1462698</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

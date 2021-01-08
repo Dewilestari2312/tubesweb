@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC163BFC-BCEA-5B84-F391-E30C32297D24" name="jurusan">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:22:34 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_keberangkatan" id="1BA992C5-4EDE-7EC6-E01E-A11F1991ECB6">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:22:41 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keberangkatan" id="6B79FC15-4284-355C-FC32-80438A2FA5D4">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:24:01 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jurusan" id="A489E33A-60D7-0D39-C08E-4F3DC78F40E9">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:25:03 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waktu" id="1FFE703F-5A0A-24DA-ADBB-7F08CCC91EE1">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:25:22 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_keberangkatan1" id="D9D2C1EF-AB46-E938-C39B-E10CD0FD879F">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 08:21:13 UTC</createdTime>
+<generatorID>5929CF69-795F-92E2-41D8-2FC1D6C81919</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>1BA992C5-4EDE-7EC6-E01E-A11F1991ECB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_armada" id="7A4BBB90-E9ED-9109-406F-AA1123961C01">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 08:21:48 UTC</createdTime>
+<generatorID>D3E7D8DA-FA39-0926-522A-3D1401A5A6D4</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>83FC27BD-75BA-4579-6916-77706C375978</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_booking" id="7FC27728-4F75-4405-94A0-C9E8D83B9E05">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:13:40 UTC</createdTime>
+<generatorID>5929CF69-795F-92E2-41D8-2FC1D6C81919</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>E31AFA53-8E2B-8605-0D2D-528D8AA106CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jadwal" id="503FCF37-76BC-56A7-0390-AF08E4FCD5B1">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:13:40 UTC</createdTime>
+<generatorID>5929CF69-795F-92E2-41D8-2FC1D6C81919</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>F579AEAE-A8FE-F474-DEDE-4106FEFB9F37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="5BE82794-1322-A144-9A57-CC066E59ECAA">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 12:13:40 UTC</createdTime>
+<generatorID>5929CF69-795F-92E2-41D8-2FC1D6C81919</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>4297DB38-CF51-6E03-0D52-24A5B109D7FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jadwal1" id="B2D15C65-C1EC-2363-9125-1F2015435AA8">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 14:08:29 UTC</createdTime>
+<generatorID>4F9CD985-B5B8-D7C5-C51B-E39C088993A9</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>56CB0E6C-AEF6-5715-D867-D15A365D1E66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_armada1" id="CE4123F8-F6E3-FC0C-400B-C36FD53798A0">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 14:08:29 UTC</createdTime>
+<generatorID>4F9CD985-B5B8-D7C5-C51B-E39C088993A9</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>910C9CC8-59A1-4F4E-4A91-D70BAAE71BF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jurusan" id="41E4DCFF-D973-F4EA-19D0-331E382C86DA">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 14:08:29 UTC</createdTime>
+<generatorID>4F9CD985-B5B8-D7C5-C51B-E39C088993A9</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>E0D0C4B1-AD7B-E719-628B-E5CB413B9988</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kursi" id="5DF5EB70-8CF5-EB08-5F7B-CE293618E728">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-04 14:46:30 UTC</createdTime>
+<generatorID>AAE85CCB-29CF-A0A7-3703-E2EA7BFA2C1E</generatorID>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<referedAttribute>393EBB4E-A7C1-B6A3-8D18-B045731DAA9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBEF961B-3AE4-07E9-3A4D-3CDBA2C815FF" name="jurusan PK">
+<createdBy>asus</createdBy>
+<createdTime>2021-01-03 07:23:59 UTC</createdTime>
+<ownerDesignName>tiketonline</ownerDesignName>
+<engineerTo>
+<item key="3C3A4E42-4FDD-F45E-77F2-FD80530D2609" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BA992C5-4EDE-7EC6-E01E-A11F1991ECB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
